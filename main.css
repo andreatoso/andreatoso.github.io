@@ -269,7 +269,7 @@ nav ul li:first-of-type {
 .about-image {
     max-width: 100%;
     height: 400px;
-    background: url('./imgs/about12.jpg') center center;
+    background: url('./imgs/about1.jpg') center center;
     background-size: cover;
     /* background-position-y: -50px;
     background-position-x: 50px; */
@@ -283,7 +283,7 @@ nav ul li:first-of-type {
 .about-image-2 {
     width: 100%;
     height: 400px;
-    background: url('./imgs/about22.jpg') center center;
+    background: url('./imgs/about2.jpg') center center;
     background-size: cover;
     margin-right: 16px;
     /* background-position-x: -65px; */
@@ -292,7 +292,7 @@ nav ul li:first-of-type {
 .about-image-3 {
     width: 100%;
     height: 400px;
-    background: url('./imgs/about32.jpg') center center;
+    background: url('./imgs/about3.jpg') center center;
     background-size: cover;
     margin-left: 16px;
 }
