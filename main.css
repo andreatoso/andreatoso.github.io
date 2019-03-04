@@ -180,7 +180,7 @@ nav ul li:first-of-type {
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     margin-bottom: 128px;
 }
 
@@ -215,10 +215,29 @@ nav ul li:first-of-type {
     margin-bottom: 16px;
 }
 
-.work-video-container {
+.work-image-container {
     max-width: 600px;
-    max-height: 336px;
+}
+
+.work-image-container-right {
+    align-self: flex-end;
+    width: 100%;
+}
+
+.work-video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
     overflow: hidden;
+    pointer-events: none;
+}
+
+.work-video-container iframe,.work-video-container object,.work-video-container embed {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .button {
