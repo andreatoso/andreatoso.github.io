@@ -521,6 +521,14 @@ footer ul li:first-of-type {
         padding-top: 16px;
     }
 
+    .work-category {
+        font-size: 14px;
+    }
+
+    .work-title {
+        font-size: 18px;
+    }
+
     .about-images-container {
         margin-top: 32px;
     }
