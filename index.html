@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main-min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script>
 </head>
 
 <body>
@@ -49,7 +50,7 @@
                     <div class="work-container" data-aos="fade-up" data-aos-duration="1000">
                         <div class="work-image-container">
                             <div class="work-video-container" data-aos="fade-up" data-aos-duration="1000">
-                                <video width="100%" height="100%" loop autoplay muted>
+                                <video class="b-lazy" width="100%" height="100%" loop autoplay muted playsinline>
                                     <source src="videos/cartamoji.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
@@ -71,7 +72,7 @@
                     <div class="work-container work-container-right" data-aos="fade-up" data-aos-duration="1000">
                         <div class="work-image-container ">
                             <div class="work-video-container" data-aos="fade-up" data-aos-duration="1000">
-                                <video width="100%" height="100%" loop autoplay muted>
+                                <video class="b-lazy" width="100%" height="100%" loop autoplay muted playsinline>
                                     <source src="videos/spotify.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
