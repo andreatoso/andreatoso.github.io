@@ -203,8 +203,8 @@ nav ul li:first-of-type {
     font-weight: normal;
     letter-spacing: -0.16px;
     color: #999999;
-    margin-top: 32px;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
+    line-height: 25px;
 }
 
 .work-title {
@@ -213,6 +213,7 @@ nav ul li:first-of-type {
     letter-spacing: -0.23px;
     color: #111111;
     margin-bottom: 16px;
+    margin-top: 32px;
 }
 
 .work-image-container {
@@ -274,7 +275,7 @@ nav ul li:first-of-type {
 .work-category-special-right {
     left: -70px;
     right: auto;
-    transform: rotate(90deg);
+    transform: rotate(270deg);
 }
 
 #about {
@@ -522,7 +523,7 @@ footer ul li:first-of-type {
     }
 
     .work-category {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .work-title {
